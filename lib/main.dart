@@ -18,6 +18,7 @@ class _MyAppState extends State<MyApp>{
   int _questionIndex=0;
   void _answerQuestion(){
     setState(() {
+      sbc=5;
       _questionIndex+=1;    
     }); 
     print(_questionIndex);
